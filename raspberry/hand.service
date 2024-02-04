@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=ubuntu
 Type=simple
-WorkingDirectory=/home/ubuntu/gpio_scipts/raspberry
-ExecStart=/usr/bin/bash /home/ubuntu/gpio_scipts/raspberry/hand_server.sh
+WorkingDirectory=/home/ubuntu/robotic_hand/raspberry
+ExecStart=/usr/bin/bash /home/ubuntu/robotic_hand/raspberry/hand_server.sh
 Restart=on-failure
 
 [Install]

@@ -1,1 +1,1 @@
-/usr/bin/python3 /home/ubuntu/gpio_scripts/raspberry/hand_server.py
+/usr/bin/python3 /home/ubuntu/robotic_hand/raspberry/hand_server.py
