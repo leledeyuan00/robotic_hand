@@ -1,0 +1,13 @@
+[Unit]
+Description=run a simple ROS2 script
+After=network.target
+
+[Service]
+User=ubuntu
+Type=simple
+WorkingDirectory=/home/ubuntu/gpio_scipts/raspberry
+ExecStart=/usr/bin/bash /home/ubuntu/gpio_scipts/raspberry/hand_server.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
